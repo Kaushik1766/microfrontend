@@ -11,6 +11,7 @@ export default defineConfig({
     filename: 'remoteEntry.js',
     exposes: {
       './App': './src/App',
+      './ChatHistory': './src/pages/ChatHistory/index',
     },
     shared: ['react', 'react-dom'],
   })
