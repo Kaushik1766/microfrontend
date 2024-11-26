@@ -1,0 +1,15 @@
+{
+  "name": "learning-microfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm -filter \"vite-*\" dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@module-federation/vite": "^1.1.7"
+  }
+}
